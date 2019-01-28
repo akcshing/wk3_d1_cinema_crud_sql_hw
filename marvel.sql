@@ -69,5 +69,6 @@ DELETE FROM people WHERE name = 'Craig Morton';
 DELETE FROM movies WHERE title = 'Batman Begins';
 INSERT INTO movies (title, year, show_time) VALUES ('Captain Marvel', 2019, '00:00');
 UPDATE movies SET show_time = '14:55' WHERE title = 'Guardians of the Galaxy 2';
+DELETE FROM movies WHERE title = 'Thor' OR title = 'Black Panther';
 
 SELECT * FROM movies;

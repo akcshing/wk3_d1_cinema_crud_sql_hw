@@ -58,5 +58,16 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '19:5
 INSERT INTO movies (title, year, show_time) VALUES ('Avengers Infinity War', 2018, '18:50');
 INSERT INTO movies (title, year, show_time) VALUES ('Ant-Man and the Wasp', 2018, '19:55');
 
+
+UPDATE people SET name = 'Anthony Starke' WHERE name = 'Anthatony Starkes';
+INSERT INTO people (name) VALUES ('Sandy');
+DELETE FROM people WHERE name = 'Craig Morton';
+-- SELECT name FROM people;
+
+-- SELECT name FROM people WHERE name = 'Alex Shing';
+
+DELETE FROM movies WHERE title = 'Batman Begins';
+INSERT INTO movies (title, year, show_time) VALUES ('Captain Marvel', 2019, '00:00');
+UPDATE movies SET show_time = '14:55' WHERE title = 'Guardians of the Galaxy 2';
+
 SELECT * FROM movies;
-SELECT name FROM people;
